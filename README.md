@@ -116,7 +116,7 @@ The main objectives of the project include:
 ├── requirements.txt       # List of required Python libraries
 ├── README.md              # Project documentation
 └── assets/                # (Optional) Additional resources
-
+```
 ## Installation
 - **Clone the repository:**
 git clone https://github.com/yourusername/warehouse-robot-optimization.git
@@ -125,7 +125,7 @@ cd warehouse-robot-optimization
 - **Install the required libraries:**
 ```bash
 pip install -r requirements.txt
-
+```
 ## How to Run the Project
 ### Main simulation
 
@@ -133,14 +133,14 @@ To Run the project execute the agent_training Python script:
 
 ```bash
 python3 agent_training.py
-
+```
 ### Hyperparameter Tuning
 The project integrates Optuna for hyperparameter optimization.
 
 To perform tuning, run hyperparameters_tuning Python script script that uses Optuna to search for the best combination of hyperparameters:
 ```bash
 python3 hyperparameters_tuning.py
-
+```
 ### What to Expect:
 - Watch the robot navigate through the warehouse grid.
 - Observe its interactions with the environment, such as avoiding humans and collecting items.
@@ -170,7 +170,7 @@ tk==0.1.0
 matplotlib==3.8.2
 statistics==1.0.3.5
 optuna==3.4.0
-
+```
 Install them with:
 
 bash
