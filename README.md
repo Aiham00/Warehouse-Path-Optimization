@@ -108,20 +108,12 @@ The main objectives of the project include:
 
 ---
 
-## Project Structure
-
-```bash
-.
-├── main.py                # Main script to run the project
-├── requirements.txt       # List of required Python libraries
-├── README.md              # Project documentation
-└── assets/                # (Optional) Additional resources
-```
 ## Installation
 - **Clone the repository:**
+```bash 
 git clone https://github.com/yourusername/warehouse-robot-optimization.git
 cd warehouse-robot-optimization
-
+```
 - **Install the required libraries:**
 ```bash
 pip install -r requirements.txt
@@ -146,18 +138,18 @@ python3 hyperparameters_tuning.py
 - Observe its interactions with the environment, such as avoiding humans and collecting items.
 - Visualize rewards and training progression in real time.
 ### Customization:
-Adjust parameters such as ** grid size **, ** learning rate **, and ** epsilon ** in the script to customize the training process.
+Adjust parameters such as **grid size**, **learning rate**, and **epsilon** in the script to customize the training process.
 
 ## Key Parameters
 The key hyperparameters for training the agent are:
 
-- ** grid_size (int): Size of the warehouse grid.**
-- ** learning_rate (float): Step size for Q-learning updates. **
-- ** discount_factor (float): Discount factor for future rewards. **
-- ** epsilon (float): Exploration rate for the ε-greedy policy. **
-- ** epsilon_decay (float): Decay rate for ε to reduce exploration over time. **
-- ** episodes (int): Number of training episodes. **
-- ** max_steps (int): Maximum steps allowed per episode. **
+- **grid_size (int): Size of the warehouse grid.**
+- **learning_rate (float): Step size for Q-learning updates.**
+- **discount_factor (float): Discount factor for future rewards.**
+- **epsilon (float): Exploration rate for the ε-greedy policy.**
+- **epsilon_decay (float): Decay rate for ε to reduce exploration over time.**
+- **episodes (int): Number of training episodes.**
+- **max_steps (int): Maximum steps allowed per episode.**
 
 ## Dependencies
 The required libraries are listed in the requirements.txt file:
@@ -173,8 +165,26 @@ optuna==3.4.0
 ```
 Install them with:
 
-bash
+```bash
 pip install -r requirements.txt
+```
+---
+## Acknowledgments
 
+Inspired by grid-world environments in reinforcement learning.
+Optuna framework for hyperparameter optimization.
+
+## Future Improvements
+Incorporate more advanced RL algorithms like Deep Q-Learning (DQN).
+Add multi-agent cooperation scenarios.
+Optimize visualization performance for larger grids.
+
+## Contact
+For any questions or suggestions, feel free to reach out:
+
+Name: Ayham Hanna
+Email: haay20ju@student.ju.se
+Email: aiham682@hotmail.com
+GitHub: https://github.com/Aiham00
 
 
