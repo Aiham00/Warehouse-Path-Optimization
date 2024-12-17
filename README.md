@@ -46,73 +46,11 @@ The main objectives of the project include:
 
 ---
 
-## Project Structure
-
-```bash
-.
-├── main.py                # Main script to run the project
-├── requirements.txt       # List of required Python libraries
-├── README.md              # Project documentation
-└── assets/                # (Optional) Additional resources
-
-
-Here is the properly formatted README.md file with corrected Markdown headers and spacing to ensure they render correctly when copied to a Markdown viewer or editor:
-
-markdown
-Copy code
-# Warehouse Robot Path Optimization
-
-This project demonstrates a reinforcement learning approach to optimize the path of a robot navigating through a warehouse grid. The robot avoids obstacles, collects items, and interacts with dynamic human movements while maximizing its rewards. The Q-learning algorithm is used to train the agent, and the training process is visualized using **Tkinter**.
-
----
-
-## Project Overview
-
-The main objectives of the project include:
-
-- Implementing a Q-learning-based reinforcement learning algorithm.  
-- Navigating through a grid-based warehouse environment.  
-- Avoiding collisions with obstacles and humans.  
-- Collecting all target items in the warehouse.  
-- Visualizing the robot's movement and the learned policy in real time.  
-
----
-
-## Features
-
-### **Grid-Based Environment**
-- A customizable warehouse grid with obstacles, humans, and target items.
-
-### **Dynamic Obstacles**
-- Humans move randomly, introducing dynamic challenges to the agent's navigation.
-
-### **Visualization**
-- The training process is visualized using a GUI (Tkinter).  
-- The learned policy can also be displayed using directional arrows.
-
-### **Reward System**
-- Designed to incentivize efficient navigation and penalize undesirable actions (e.g., collisions with humans or obstacles).
-
-### **Hyperparameter Optimization**
-- Support for hyperparameter tuning using **Optuna**.
-
----
-
-## Technologies Used
-
-- **Python**  
-- **NumPy** - Efficient grid and Q-table computations.  
-- **Tkinter** - GUI visualization for agent movement.  
-- **Matplotlib** - Plotting the training rewards.  
-- **Optuna** - Hyperparameter optimization for Q-learning parameters.  
-
----
-
 ## Installation
 - **Clone the repository:**
 ```bash 
-git clone https://github.com/yourusername/warehouse-robot-optimization.git
-cd warehouse-robot-optimization
+git clone https://github.com/Aiham00/Warehouse-Path-Optimization.git
+cd Warehouse-Path-Optimization
 ```
 - **Install the required libraries:**
 ```bash
@@ -156,12 +94,10 @@ The required libraries are listed in the requirements.txt file:
 
 ```bash
 
-numpy==1.26.2
-random2==1.0.1
-tk==0.1.0
-matplotlib==3.8.2
-statistics==1.0.3.5
-optuna==3.4.0
+numpy==1.26.4
+tk==8.6
+matplotlib==3.8.4
+optuna==3.6.1
 ```
 Install them with:
 
